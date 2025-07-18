@@ -27,7 +27,7 @@ We will use MNIST and N-MNIST (Orchard et al., 2015) examining our questions. Mo
 
 
 ## Contributors 
-- [Bogeng Song](https://github.com/D4ni1abogeng-son)
+- [Bogeng Song](https://github.com/bogeng-son)
 - [Pranati Modumudi](https://github.com/pranmod01)
 - [Willow Han](https://github.com/hwhan14)
 - [Qingqing Yang](https://github.com/Qingqing-Yang-17)
@@ -35,7 +35,7 @@ We will use MNIST and N-MNIST (Orchard et al., 2015) examining our questions. Mo
 - [Liz Jaramillo](https://github.com/lizaneth)
 - [Adrian Velez](https://github.com/anselmo0v)
 - [Cherishma Kumar Subhasa](https://github.com/CherishSu)
-- [Ananna Biswas](https://github.com/Anannabiswa)
+- [Ananna Biswas](https://github.com/Anannabiswas)
 - [Albin Spuler](https://github.com/ATSpuler)
 - [Mostafa Miandari Hossein](https://github.com/Miandari)
 
