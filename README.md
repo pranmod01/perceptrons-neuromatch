@@ -27,7 +27,7 @@ We will use MNIST and N-MNIST (Orchard et al., 2015) examining our questions. Mo
 
 
 ## Contributors 
-- [Bogeng Song](https://github.com/bogeng-son)
+- [Bogeng Song](https://github.com/bogeng-song)
 - [Pranati Modumudi](https://github.com/pranmod01)
 - [Willow Han](https://github.com/hwhan14)
 - [Qingqing Yang](https://github.com/Qingqing-Yang-17)
