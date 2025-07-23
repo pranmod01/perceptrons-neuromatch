@@ -9,3 +9,5 @@ snntorch
 torchvision
 tensorboard
 rsatoolbox
+numba
+
