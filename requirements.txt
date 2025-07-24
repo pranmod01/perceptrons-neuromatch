@@ -5,4 +5,9 @@ scipy
 pandas
 jupyter
 ipykernel
+snntorch
+torchvision
+tensorboard
+rsatoolbox
 numba
+
