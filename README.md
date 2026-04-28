@@ -13,17 +13,38 @@ We want to examine the following questions:
 
 
 ## Used Dataset
+We used MNIST and N-MNIST (Orchard et al., 2015) to examine our questions. Specifically:
+   MNIST: Used for the standard Convolutional Neural Network (CNN) and Recurrent Neural Network (RNN) benchmarks.
+   N-MNIST: Used for the Spiking Neural Network (SNN) to leverage temporal spike-based data.
 
-We will use MNIST and N-MNIST (Orchard et al., 2015) examining our questions. Morespecifically, we will use MNIST for CNN, and N-MNIST for the SNN. 
+## Model Architecture
+The project compares three distinct classes of architectures:
+
+1. Convolutional Neural Network (CNN): * Structure: 5 Convolutional layers followed by 3 Fully Connected layers.
+Focus: High-accuracy static feedforward encoding (Achieved 99.22% accuracy).
+
+2. Spiking Neural Network (SNN): * Structure: Hidden layer of 1,000 Leaky Integrate-and-Fire (LIF) neurons.
+Dynamics: Processed over 25 time steps to simulate biological spike-timing-dependent encoding.
+
+3. Recurrent Neural Networks (RNN/LSTM/GRU): * Task: Delayed Match-to-Sample.
+Focus: Analyzing fixed-point dynamics and the effect of distractors on information maintenance during the delay period.
+<img width="845" height="418" alt="image" src="https://github.com/user-attachments/assets/06a3f4a3-a1b2-45ca-a3de-8c72f1779466" />
+
+## Key Analytical Methods
+Representational Dissimilarity Analysis (RDA): Using RDMs to visualize the geometric structure of neural representations.
+
+Dynamical Similarity Analysis (DSA): Comparing the temporal trajectories of SNNs and RNNs.
+
+## Requirements
+To run the analysis and models, you will need:
+
+Python 3.8+
+PyTorch / Tonic (for N-MNIST handling)
+NumPy & SciPy
+Matplotlib & Seaborn (for RDM visualization)
+Scikit-learn (for MDS and dimensionality reduction)
 
 
-## Model Architechure 
-
-
-## Requirements 
-
-
-## Usage 
 
 
 ## Contributors 
